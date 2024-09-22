@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewbox="0 0 100 100" fill="red" xlmns="http://www.w3.org/2000/svg">
+    <symbol id="delete-icon" viewbox="0 0 100 100">
+    <circle cx="50" cy="50" r="40"/>
+    <line x1="66" y1="33" x2="33" y2="66" stroke-width="5" stroke="white"></line>
+    <line x1="66" y1="66" x2="33" y2="33" stroke-width="5" stroke="white"></line>
+    </symbol>
+</svg>

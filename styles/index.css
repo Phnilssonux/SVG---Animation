@@ -10,18 +10,45 @@ body {
 .container {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    border-style: double;
+    padding: 20px;
+    margin-top: 40px;
+    animation: imgZoom 5s ease infinite;
    
 }
 
-.main-img {
-    position: absolute;
-    height: 400px;
-    margin-right: 20px;
+.container:hover {
+    animation-play-state: paused;
 }
 
 li {
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
+    margin-right: 20px;
+}
+
+.btn {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 90px;
+    
+}
+
+.btn:hover {
+    background-color: rgba(134, 132, 134, 0.534);
+    transition: all 0.9s ease-in-out;
+    transition-delay: 0.5;
+
+}
+
+
+@keyframes imgZoom {
+    0% {transform: scale(1) rotate(0deg);}
+    50% {transform: scale(1.1) rotate(15deg);}
+    100% {transform: scale(1) rotate(0deg);}
 }
